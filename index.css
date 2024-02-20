@@ -1,3 +1,22 @@
-.wrapper{
-    color: aqua;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
+.img{
+    width: 40%;
+}
+.name,.boton{   
+    width: 100%;
+    height: 100px;
+}
+.nombre{
+    align-content: center;
+}
+
+.confirm{
+    align-items: center;
+}
+

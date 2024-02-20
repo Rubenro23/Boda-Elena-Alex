@@ -3,29 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Confirmacion Boda</title>
 </head>
 <body>
-
-  <div id="wrapper">
-    <h2>Envie su formulario</h2>
+   <img src="pruebaBoda.jpg" alt="Boda" class="img">
+ 
+  <div>
+    <h2 class="title">Envie su formulario</h2>
+    
     <form action="https://formspree.io/f/xvoekdyr" method="POST" />
-      <label form="Nombre">Nombre</label>
-      <input type="text" name="name" required>
-
+     
+      <label form="Nombre" class="nombre">Nombre</label>
+      <input type="text" name="name" class="name" required>
+      
       <label form="Apellidos">Apellidos</label>
-      <input type="text" name="surname" required>
+      <input type="text" name="surname" class="name" required>
 
-      <label for="Confirmacion">Confirmacion</label>
+      <label for="Confirmacion" class="confirm">Confirmacion</label>
       <input type="checkbox" name="si">Si
       <input type="checkbox" name="no">No
 
-      <input type="submit" value="Enviar">
-      
+      <input type="submit" value="Enviar" class="boton">
+  
     </form>
   </div>
+ 
 
- <a href="https://github.com/" >Github</a>
+
 
 
 </body>

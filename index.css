@@ -5,18 +5,34 @@ body{
     flex-direction: column;
     
 }
-.img{
-    width: 40%;
+.container{
+    padding-block: 20px;
+    padding-inline: 40px;
 }
-.name,.boton{   
-    width: 100%;
+.img{
+    width: 30%;
+    margin-block: 20px;
+    margin-inline: 40px;
+}
+.name{   
+    width: 98%;
     height: 100px;
+}
+.boton{
+    width: 20%;
 }
 .nombre{
     align-content: center;
 }
 
-.confirm{
+.confirm,p{
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+.containerButton{
+    margin-block: 20px;
+    display: flex;
+   justify-content: center;
 }
 

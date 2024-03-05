@@ -197,6 +197,11 @@ p{
         flex-direction: column-reverse;
     }
 
+    .containerlugar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .imagen{
         width: 430px;
     }
@@ -295,6 +300,7 @@ p{
     h1{
         font-size: 49px;
     }
+
 }
 
 

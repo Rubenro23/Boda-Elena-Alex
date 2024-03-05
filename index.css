@@ -301,6 +301,11 @@ p{
         font-size: 49px;
     }
 
+
+    .containerlugar{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 

@@ -1,6 +1,5 @@
 body{
-    margin: 0;
-    
+    margin: auto;
 }
 header{
     display: flex;
@@ -9,6 +8,7 @@ header{
     background-color: black;
     align-items: center;
     padding: 10px;
+    
 }
 .letters{
     color: white;
@@ -72,6 +72,7 @@ nav a:hover{
     width: 60%;
     height: 100px;
 }
+
 #mensaje{
     width: 60%;
     height: 100px;
@@ -87,6 +88,8 @@ nav a:hover{
 
 .confirm{
     margin: auto;
+    font-weight: 600;
+    
 }
 .button{
     margin-bottom: 40px;
@@ -99,15 +102,20 @@ nav a:hover{
     
 }
 
+.containerlugar{
+    display: flex;
+    justify-content: space-around;
+}
+
 .texto {
     width: 43%;
     margin: auto;
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 150px;
     
 }
 h1{
-    width: 40%;
+    
     font-size: 55px;
     display: flex;
     justify-content: center;
@@ -121,21 +129,25 @@ hr{
 }
 
 p{
-    width: 70%;
+    width: 100%;
     font-size: 20px;
 }
 
 
 .containerimagen{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-
+   margin:auto;
+   margin-right: 100px;
 }
 
 .imagen{
-    width: 600px;
-    margin-right: 200px;
+    width: 500px;
+    
+}
+
+.imagen2{
+    width: 350px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 
@@ -168,67 +180,34 @@ p{
 
 
 
-
-
-
-
-
-
-
-@media (max-width:430px) {
+@media (max-width:430px){
     header{
-    height: 70px;
-    justify-content: space-between;
-   
-    }
-
-
-    .containerbienvenido{
-        display: flex;
-        flex-direction: column-reverse;
+        height: 70px;
+        justify-content: space-between;
         
-        
-    }
-    
-    .texto {
-        width: 100%;
-        margin: auto;
-        margin-left: 0;
-        
-        
-    }
+        }
 
-
-    h1{
-        width: 100%;
-       margin-left: 10px;
-    }
-
-    p{
-        width: 100%;
-        font-size: 20px;
-    }
-
-    .containerimagen{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    
-    }
-    
-    .imagen{
-        width: 100%;
-        
-    }
-    
-
-
-    
     nav a{
         font-size: 15px;
         display: flex;
-       
+        }
+    
+    .containerbienvenido{
+        display: flex;
+        flex-direction: column-reverse;
     }
+
+    .imagen{
+        width: 430px;
+    }
+
+   .texto{
+    width:80%;
+    margin-top: 0px;
+    margin-left: 50px;
+    }
+
+  
 
     .text-title{
         font-weight: 900;
@@ -236,7 +215,7 @@ p{
         margin-top: 50px;
         font-weight: 600;
         font-size: 20px;
-        width: 100%;
+        width: 45%;
         margin-left: 22px;
     }
 
@@ -249,6 +228,9 @@ p{
         margin-left: 22px;
     }
 
+
+
+   
     .form{
         width: 90%;
         height: 500px;
@@ -278,4 +260,48 @@ p{
         margin-top: 30px;
         font-size: 18px;
     }
+
+
+    .imagen2{
+        width: 430px;
+        margin: auto;
+    }
+    
 }
+
+
+@media (max-width:390px){
+    .imagen, .imagen2{
+        width: 390px;
+    }
+
+
+    .texto{
+        width:75%;
+        margin-top: 0px;
+        margin-left: 50px;
+        }
+
+         .text-title{
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-top: 50px;
+            font-weight: 600;
+            font-size: 20px;
+            width: 52%;
+            margin-left: 22px;
+        }
+    
+    h1{
+        font-size: 49px;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -140,7 +140,8 @@ p{
 }
 
 .imagen{
-    width: 500px;
+    width: 450px;
+    border-radius: 10px;
     
 }
 
@@ -148,6 +149,7 @@ p{
     width: 350px;
     margin-top: 200px;
     margin-bottom: 100px;
+    border-radius: 10px;
 }
 
 
@@ -159,6 +161,12 @@ p{
 
 .icon-arrow{
     width: 30px;
+}
+
+
+.place{
+    width: 50%;
+    border-radius: 10px;
 }
 
 /*
@@ -176,6 +184,7 @@ p{
     margin-left: 450px;
     
 }*/
+
 
 
 
@@ -204,6 +213,7 @@ p{
 
     .imagen{
         width: 430px;
+        border-radius: 0;
     }
 
    .texto{
@@ -271,8 +281,23 @@ p{
         width: 430px;
         margin: auto;
     }
+
+    .place{
+        width: 90%;
+    }
     
 }
+
+
+@media (max-width:412px){
+    .imagen{
+        width: 412px;
+    }
+    .imagen2{
+        width: 412px;
+    }
+}
+
 
 
 @media (max-width:390px){
@@ -307,9 +332,6 @@ p{
         flex-direction: column;
     }
 }
-
-
-
 
 
 

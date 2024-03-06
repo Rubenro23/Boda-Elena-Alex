@@ -304,9 +304,9 @@ p{
     }
 }
 
-@media (max-width:395px){
+@media (max-width:393px){
     .imagen, .imagen2{
-        width: 395px;
+        width: 393px;
     }
 }
 

@@ -27,6 +27,7 @@ nav a {
 
 nav a:hover{
     color:beige;
+    text-decoration: underline;
 }
 
 
@@ -105,6 +106,31 @@ nav a:hover{
 .containerlugar{
     display: flex;
     justify-content: space-around;
+}
+
+.containerContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    width: 30%;
+    
+}
+
+
+#contactForm{
+    width: 80%;
+    height: 20px;
+    margin: 10px 0 10px 0 ;
+}
+
+#contactComent{
+    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .texto {
@@ -285,6 +311,10 @@ p{
     .place{
         width: 90%;
     }
+
+    .contact{
+        width: 81%;
+    }
     
 }
 
@@ -303,6 +333,8 @@ p{
         width: 400px;
     }
 }
+
+/*Tamaño de mi movil*/
 
 @media (max-width:393px){
     .imagen, .imagen2{

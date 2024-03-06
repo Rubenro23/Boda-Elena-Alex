@@ -298,7 +298,11 @@ p{
     }
 }
 
-
+@media(max-width:400px){
+    .imagen, .imagen2{
+        width: 400px;
+    }
+}
 
 @media (max-width:390px){
     .imagen, .imagen2{

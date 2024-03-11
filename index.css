@@ -229,6 +229,14 @@ p{
     margin-top: 10px;
 }
 
+.qr{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    margin: auto;
+    margin-top: 40px;
+}
+
 /*
 .imagen{
     width: 500px;
@@ -381,6 +389,10 @@ p{
         
         margin-top: 20px;
         
+    }
+
+    .qr{
+        width: 50%;
     }
     
     

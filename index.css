@@ -195,6 +195,21 @@ p{
     border-radius: 10px;
 }
 
+.fotos{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;  
+}
+
+.icon-camara{
+    display: flex;
+    justify-content: center;  
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
 /*
 .imagen{
     width: 500px;
@@ -251,13 +266,11 @@ p{
   
 
     .text-title{
-        font-weight: 900;
         text-transform: uppercase;
         margin-top: 50px;
-        font-weight: 600;
-        font-size: 20px;
-        width: 45%;
-        margin-left: 22px;
+        font-size: 31px;
+        width: 70%;
+        
     }
 
     .text-confirm{

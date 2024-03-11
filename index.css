@@ -237,7 +237,7 @@ p{
         flex-direction: column;
     }
 
-    .imagen{
+    .imagen, .imagen2{
         width: 430px;
         border-radius: 0;
     }

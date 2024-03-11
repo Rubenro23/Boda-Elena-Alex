@@ -195,8 +195,17 @@ p{
     border-radius: 10px;
 }
 
-.fotos{
+.text-fotos{
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.fotos{
+    
     display: flex;
     justify-content: center;  
 }
@@ -204,10 +213,20 @@ p{
 .icon-camara{
     display: flex;
     justify-content: center;  
-    color: black;
-    text-transform: uppercase;
-    font-size: 20px;
     
+    
+}
+.link-foto{
+    display: flex;
+    justify-content: center;
+}
+.link-camara{
+    color:black;
+    text-transform: uppercase;
+}
+
+.icon-camara{
+    margin-top: 10px;
 }
 
 /*
@@ -232,7 +251,7 @@ p{
 
 @media (max-width:430px){
     header{
-        height: 70px;
+        height: 90px;
         justify-content: space-between;
         
         }
@@ -240,6 +259,7 @@ p{
     nav a{
         font-size: 15px;
         display: flex;
+        margin-bottom: 3px;
         }
     
     .containerbienvenido{
@@ -328,6 +348,41 @@ p{
     .contact{
         width: 81%;
     }
+
+    .text-fotos{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .fotos{
+       width: 92%;
+       margin-left: auto;
+    }
+    
+
+    .link-foto{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .link-camara{
+        color: black;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .icon-camara{
+        
+        margin-top: 20px;
+        
+    }
+    
     
 }
 

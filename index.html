@@ -38,19 +38,58 @@
             <p>¡Estamos super felices! Y sobre todo queremos compartir contigo este nuevo viaje. Por eso estamos preparando una boda que esperamos sea un gran fieston y lo disfrutemos juntos.</p>
             <p>Mientras llega el gran día hemos creado esta web con distintas secciones para que estés al día de todo y para compartir nuestra locura con vosotros.</p>
             <p>Una cosa importante, en la sección asistencia puedes confirmar si vas a la boda o no. También puedes añadir en comentarios cualquier alergia o intolerancia para que podamos adaptaros vuestro menú. Confírmanos lo antes posible por favor, que así organizarlo todo nos será mucho más fácil.</p>
+            <p id="contador"></p>
+
             <p>Disfruta la web y nos vemos muy pronto, mil besos!</p>
+            
         </div>
         <div class="containerimagen">
             <div>
                 <img src="foto-inicial.jpg" class="imagen" alt="Imagen">
             </div>
-            <!--
-            <div>
-                <img src="IMG_3631.JPG" class="imagen2" >
-            </div>
-            -->
+            
         </div>
     </div>
 
+
+    <script>
+        // Definir la fecha objetivo
+        const fechaObjetivo = new Date('2024-10-12T13:15:00');
+    
+        // Función para actualizar el contador de tiempo restante
+        function actualizarContador() {
+          // Obtener la fecha actual
+          const fechaActual = new Date();
+    
+          // Calcular la diferencia de tiempo en milisegundos
+          let diferenciaTiempo = fechaObjetivo - fechaActual;
+    
+          // Si la fecha objetivo ya ha pasado, mostrar un mensaje
+          if (diferenciaTiempo < 0) {
+            document.getElementById('contador').textContent = "El tiempo ha pasado.";
+            return;
+          }
+    
+          // Calcular los días, horas, minutos y segundos restantes
+          const dias = Math.floor(diferenciaTiempo / (1000 * 60 * 60 * 24));
+          diferenciaTiempo %= (1000 * 60 * 60 * 24);
+          const horas = Math.floor(diferenciaTiempo / (1000 * 60 * 60));
+          diferenciaTiempo %= (1000 * 60 * 60);
+          const minutos = Math.floor(diferenciaTiempo / (1000 * 60));
+          diferenciaTiempo %= (1000 * 60);
+          const segundos = Math.floor(diferenciaTiempo / 1000);
+    
+          // Mostrar el contador en la página
+          document.getElementById('contador').innerHTML = `
+            <p>Faltan ${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} segundos.</p>
+          `;
+        }
+    
+        // Llamar a la función actualizarContador cada segundo
+        setInterval(actualizarContador, 1000);
+    
+        // Actualizar el contador al cargar la página
+        actualizarContador();
+      </script>
 </body>
 </html>

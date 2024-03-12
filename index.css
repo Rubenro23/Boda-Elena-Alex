@@ -297,13 +297,13 @@ h3{
 
 @media (max-width:430px){
     header{
-        height: 90px;
+        height: 100px;
         justify-content: space-between;
         
         }
 
     nav a{
-        font-size: 15px;
+        font-size: 13px;
         display: flex;
         margin-bottom: 3px;
         }
@@ -385,6 +385,7 @@ h3{
     .imagen2{
         width: 430px;
         margin: auto;
+        
     }
 
     .place{
@@ -431,6 +432,22 @@ h3{
 
     .qr{
         width: 50%;
+    }
+
+    .text-alojamiento{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .hostal-foto{
+        width: 50%;
+    }
+
+    h3{
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-top: 45px;
     }
     
     

@@ -444,6 +444,10 @@ h3{
         margin: auto;
         margin-top: 20px;
     }
+    .alojamiento{
+        display: flex;
+        justify-content: center;
+    }
 
     .hostal-foto{
         width: 50%;

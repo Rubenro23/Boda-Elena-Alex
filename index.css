@@ -467,11 +467,21 @@ h3{
     .imagen2{
         width: 412px;
     }
+    .text-alojamiento{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
 }
 
 @media(max-width:400px){
     .imagen, .imagen2{
         width: 400px;
+    }
+    .text-alojamiento{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
     }
 }
 
@@ -480,6 +490,11 @@ h3{
 @media (max-width:393px){
     .imagen, .imagen2{
         width: 393px;
+    }
+    .text-alojamiento{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
     }
 }
 
@@ -513,6 +528,11 @@ h3{
     .containerlugar{
         display: flex;
         flex-direction: column;
+    }
+    .text-alojamiento{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
     }
 }
 

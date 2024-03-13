@@ -1,6 +1,7 @@
 body{
     margin: auto;
-    color: #ffebd8;
+   background-color: #ffebd8; 
+   
 }
 header{
     display: flex;

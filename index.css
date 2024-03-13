@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    
+    color: #ffebd8;
 }
 header{
     display: flex;
@@ -46,6 +46,7 @@ nav a:hover{
     margin-top: 100px;
     font-weight: 600;
     font-size: 30px;
+    color: #a7d397;
     
 }
 
@@ -59,7 +60,7 @@ nav a:hover{
 .form{
     width: 40%;
     height: 500px;
-    border-color: beige;
+    border-color:  #a7d397;
     border-style: solid;
     border-radius: 10px;
     display: flex;
@@ -91,7 +92,12 @@ nav a:hover{
 .confirm{
     margin: auto;
     font-weight: 600;
+    color: #a7d397;
     
+}
+
+.yes{
+    color: #a7d397;
 }
 .button{
     margin-bottom: 40px;
@@ -147,17 +153,22 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #a7d397;
+}
+h2{
+    color: #a7d397;
 }
 hr{
     width: 5%;
     margin-left: initial;
-    border: 2px solid black;
+    border: 2px solid  #a7d397;;
     
 }
 
 p{
     width: 100%;
     font-size: 20px;
+    color: #a7d397;
 }
 
 
@@ -203,6 +214,7 @@ p{
     font-weight: 600;
     font-size: 22px;
     margin-top: 30px;
+    color: #a7d397;
 }
 
 .fotos{
@@ -249,6 +261,7 @@ p{
 .text-alojamiento{
     display: flex;
     justify-content: center;
+    color: #a7d397;
     
 }
 
@@ -270,6 +283,7 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    color: #a7d397;
 }
 
 .tlf{
@@ -369,7 +383,7 @@ h3{
     .form{
         width: 90%;
         height: 500px;
-        border-color: beige;
+        border-color:  #a7d397;
         border-style: solid;
         border-radius: 10px;
         display: flex;
@@ -418,6 +432,7 @@ h3{
         font-weight: 600;
         font-size: 22px;
         margin-top: 30px;
+        color: #a7d397;
     }
 
     .fotos{

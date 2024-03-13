@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    
 }
 header{
     display: flex;
@@ -272,12 +273,20 @@ h3{
 }
 
 .tlf{
-    color: black;
+    margin-left: 20px;
 }
 
 #contador{
     font-weight: 600;
     color: black;
+}
+
+.icon-what{
+    width: 30px;
+}
+
+.icon-contact{
+    display: flex;
 }
 
 

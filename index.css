@@ -1,6 +1,7 @@
 body{
     margin: auto;
    background-color: #EED3D9; 
+   color: white;
    
 }
 header{
@@ -47,7 +48,7 @@ nav a:hover{
     margin-top: 100px;
     font-weight: 600;
     font-size: 30px;
-    color:#97ff74;
+    color:limegreen;
     
 }
 
@@ -57,7 +58,7 @@ nav a:hover{
     margin-bottom: 50px;
     font-weight: 400;
     font-size: 20px;
-    color:limegreen;
+    
 }
 .form{
     width: 40%;
@@ -94,13 +95,11 @@ nav a:hover{
 .confirm{
     margin: auto;
     font-weight: 600;
-    color: #a7d397;
+    ;
     
 }
 
-.yes{
-    color: #a7d397;
-}
+
 .button{
     margin-bottom: 40px;
     margin-top: 30px;
@@ -155,22 +154,22 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #a7d397;
+    color: limegreen;
 }
 h2{
-    color: #a7d397;
+    color:limegreen;
 }
 hr{
     width: 5%;
     margin-left: initial;
-    border: 2px solid  #a7d397;;
+    border: 2px solid  limegreen;;
     
 }
 
 p{
     width: 100%;
     font-size: 20px;
-    color: #a7d397;
+    
 }
 
 
@@ -221,7 +220,7 @@ p{
     font-weight: 600;
     font-size: 22px;
     margin-top: 30px;
-    color: #a7d397;
+    
 }
 
 .fotos{
@@ -268,7 +267,7 @@ p{
 .text-alojamiento{
     display: flex;
     justify-content: center;
-    color: #a7d397;
+    
     
 }
 
@@ -290,7 +289,7 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    color: #a7d397;
+    color: limegreen;
 }
 
 .tlf{

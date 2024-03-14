@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover{
-    color:#A7D397;
+    color:#a9c59f;
     text-decoration: underline;
 }
 
@@ -47,7 +47,7 @@ nav a:hover{
     margin-top: 100px;
     font-weight: 600;
     font-size: 30px;
-    color: #a7d397;
+    color:#97ff74;
     
 }
 
@@ -57,6 +57,7 @@ nav a:hover{
     margin-bottom: 50px;
     font-weight: 400;
     font-size: 20px;
+    color:limegreen;
 }
 .form{
     width: 40%;

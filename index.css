@@ -1,13 +1,13 @@
 body{
     margin: auto;
-   background-color: #ffebd8; 
+   background-color: #EED3D9; 
    
 }
 header{
     display: flex;
     justify-content: center;
     height: 70px;
-    background-color: black;
+    background-color:#FC819E;
     align-items: center;
     padding: 10px;
     
@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover{
-    color:beige;
+    color:#A7D397;
     text-decoration: underline;
 }
 
@@ -182,6 +182,11 @@ p{
     width: 450px;
     border-radius: 10px;
     
+}
+
+.nombres{
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .imagen2{
@@ -411,7 +416,7 @@ h3{
         font-size: 18px;
     }
 
-
+   
     .imagen2{
         width: 430px;
         margin: auto;
@@ -561,6 +566,9 @@ h3{
         width: 70%;
         margin: auto;
         margin-top: 20px;
+    }
+    .nombres{
+        width: 100%;
     }
 }
 

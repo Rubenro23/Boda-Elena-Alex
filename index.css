@@ -48,7 +48,7 @@ nav a:hover{
     margin-top: 100px;
     font-weight: 600;
     font-size: 30px;
-    color:limegreen;
+    color:#a7d397;
     
 }
 
@@ -154,15 +154,15 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: limegreen;
+    color:#a7d397;
 }
 h2{
-    color:limegreen;
+    
 }
 hr{
     width: 5%;
     margin-left: initial;
-    border: 2px solid  limegreen;;
+    border: 2px solid  white;;
     
 }
 
@@ -220,6 +220,7 @@ p{
     font-weight: 600;
     font-size: 22px;
     margin-top: 30px;
+    color: #a7d397;
     
 }
 
@@ -289,7 +290,7 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    color: limegreen;
+    color: #a7d397;
 }
 
 .tlf{
@@ -438,7 +439,7 @@ h3{
         font-weight: 600;
         font-size: 22px;
         margin-top: 30px;
-        color: #a7d397;
+        
     }
 
     .fotos{

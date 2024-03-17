@@ -1,7 +1,8 @@
 body{
     margin: auto;
-   background-color: #EED3D9; 
-   color: white;
+   background-color:white; 
+   color:#ffc5c5;
+   font-family: cursive;
    
 }
 header{
@@ -19,7 +20,7 @@ header{
 }
 
 a{
-    color: white;
+    color:#cff5be;
     text-decoration: none;
 }
 
@@ -48,12 +49,12 @@ nav a:hover{
     margin-top: 100px;
     font-weight: 600;
     font-size: 30px;
-    color:#a7d397;
+    
     
 }
 
 .text-confirm{
-    width:30%;
+    width:28%;
     margin-top: 50px;
     margin-bottom: 50px;
     font-weight: 400;
@@ -63,7 +64,7 @@ nav a:hover{
 .form{
     width: 40%;
     height: 500px;
-    border-color:  #a7d397;
+    border-color:  #FC819E;
     border-style: solid;
     border-radius: 10px;
     display: flex;
@@ -154,11 +155,9 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#a7d397;
-}
-h2{
     
 }
+
 hr{
     width: 5%;
     margin-left: initial;
@@ -220,7 +219,7 @@ p{
     font-weight: 600;
     font-size: 22px;
     margin-top: 30px;
-    color: #a7d397;
+    
     
 }
 
@@ -241,7 +240,7 @@ p{
     justify-content: center;
 }
 .link-camara{
-    color:black;
+    color:white;
     text-transform: uppercase;
 }
 
@@ -290,7 +289,7 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    color: #a7d397;
+    
 }
 
 .tlf{
@@ -299,7 +298,7 @@ h3{
 
 #contador{
     font-weight: 600;
-    color: black;
+    color: white;
 }
 
 .icon-what{
@@ -376,7 +375,7 @@ h3{
     }
 
     .text-confirm{
-        width:87%;
+        width:85%;
         margin-top: 50px;
         margin-bottom: 50px;
         font-weight: 400;

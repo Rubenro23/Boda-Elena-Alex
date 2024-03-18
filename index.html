@@ -15,9 +15,10 @@
         <a href="">BIENVENIDOS</a>
         <a href="confirmacionBoda.html">CONFIRMA TU ASISTENCIA </a>
         <a href="lugarCelebracion.html">LUGAR DE CELEBRACIÓN</a>
+        <a href="alojamiento.html">ALOJAMIENTO</a>
         <a href="contactanos.html">CONTÁCTANOS</a>
         <a href="fotos.html">RECUERDOS</a>
-        <a href="alojamiento.html">ALOJAMIENTO</a>
+        
        
     </nav>
     </header>
@@ -38,8 +39,9 @@
             <p>¡Estamos super felices! Y sobre todo queremos compartir contigo este nuevo viaje. Por eso estamos preparando una boda que esperamos sea un gran fieston y lo disfrutemos juntos.</p>
             <p>Mientras llega el gran día hemos creado esta web con distintas secciones para que estés al día de todo y para compartir nuestra locura con vosotros.</p>
             <p>Una cosa importante, en la sección asistencia puedes confirmar si vas a la boda o no. También puedes añadir en comentarios cualquier alergia o intolerancia para que podamos adaptaros vuestro menú. Confírmanos lo antes posible por favor, que así organizarlo todo nos será mucho más fácil.</p>
-            <p id="contador"></p>
-
+            
+            <!--<p id="contador"></p>-->
+            <div id="calendario"></div>
             <p>Disfruta la web y nos vemos muy pronto, mil besos!</p>
             
         </div>
@@ -66,7 +68,7 @@
     
           // Si la fecha objetivo ya ha pasado, mostrar un mensaje
           if (diferenciaTiempo < 0) {
-            document.getElementById('contador').textContent = "LLego el gran dia.";
+            document.getElementById('calendario').textContent = "LLego el gran dia.";
             return;
           }
     
@@ -80,9 +82,11 @@
           const segundos = Math.floor(diferenciaTiempo / 1000);
     
           // Mostrar el contador en la página
-          document.getElementById('contador').innerHTML = `
-            <p>Faltan ${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} segundos.</p>
-          `;
+          document.getElementById('calendario').innerHTML = //`<p>Faltan ${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} segundos.</p>`;
+          `<div><p>Días</p><p>${dias}</p></div>
+            <div><p>Horas</p><p>${horas}</p></div>
+            <div><p>Minutos</p><p>${minutos}</p></div>
+            <div><p>Segundos</p><p>${segundos}</p></div>`
         }
     
         // Llamar a la función actualizarContador cada segundo

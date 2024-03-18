@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover{
-    color:#a9c59f;
+    color:#cff5be;
     text-decoration: underline;
 }
 
@@ -151,7 +151,7 @@ nav a:hover{
 }
 h1{
     
-    font-size: 55px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

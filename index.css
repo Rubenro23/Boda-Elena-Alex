@@ -3,7 +3,7 @@ body{
    background-color:white; 
    color:#ffc5c5;
    font-family: bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
+   font-size: 20px;
 }
 header{
     display: flex;
@@ -171,7 +171,7 @@ hr{
 
 p{
     width: 100%;
-    font-size: 20px;
+    
     
 }
 
@@ -283,7 +283,7 @@ p{
 .text-alojamiento{
     display: flex;
     justify-content: center;
-    font-size: 22px;
+    
     
     
 }
@@ -384,7 +384,9 @@ li a {
         justify-content: space-between;
         
         }
-
+        body{
+            font-size: 18px;
+        }
     nav a{
         font-size: 13px;
         display: flex;
@@ -431,7 +433,6 @@ li a {
         margin-top: 50px;
         margin-bottom: 50px;
         font-weight: 400;
-        font-size: 24px;
         margin-left: 22px;
     }
 
@@ -523,7 +524,7 @@ li a {
         width: 70%;
         margin: auto;
         margin-top: 20px;
-        font-size: 22px;
+        
     }
 
     

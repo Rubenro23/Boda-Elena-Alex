@@ -282,10 +282,21 @@ p{
 
 .text-alojamiento{
     display: flex;
+    justify-content: center;   
+}
+
+.recuadro-alojamiento{
+    border-radius: 5px;
+    border: 2px solid #FC819E;
+    width: 40%;
+    margin: auto;
+}
+
+.recuadro-alojamiento p{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    
-    
-    
+    align-items: center;
 }
 
 .link-hostal{
@@ -538,7 +549,11 @@ li a {
     h3{
         
         margin-bottom: 0;
-        margin-top: 45px;
+        
+    }
+
+    .recuadro-alojamiento{
+        width: 80%;
     }
     
     #calendario {

@@ -210,6 +210,19 @@ p{
     width: 30px;
 }
 
+.lugar {
+    border-radius: 5px;
+    border:2px solid #FC819E; 
+}
+
+.lugar p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
 .place{
     width: 50%;
@@ -271,6 +284,7 @@ p{
 .text-alojamiento{
     display: flex;
     justify-content: center;
+    font-size: 22px;
     
     
 }
@@ -293,6 +307,7 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    font-size: 35px;
     
 }
 
@@ -307,6 +322,10 @@ h3{
 
 .icon-what{
     width: 20px;
+}
+
+ul{
+    margin-left:-253px;
 }
 
 li a {
@@ -334,7 +353,7 @@ li a {
     padding: 10px;
     background-color: #ffc5c5;
     border: 1px solid white;
-    color:#cff5be ;
+    color:#6cbd47 ;
     border-radius: 5px;
     
   }
@@ -399,7 +418,7 @@ li a {
     .text-title{
         text-transform: uppercase;
         margin-top: 50px;
-        font-size: 31px;
+        font-size: 40px;
         width: 70%;
         
     }
@@ -419,7 +438,6 @@ li a {
     .form{
         width: 90%;
         height: 500px;
-        border-color:  #a7d397;
         border-style: solid;
         border-radius: 10px;
         display: flex;
@@ -466,7 +484,7 @@ li a {
         justify-content: center;
         text-transform: uppercase;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 40px;
         margin-top: 30px;
         
     }
@@ -504,8 +522,10 @@ li a {
         width: 70%;
         margin: auto;
         margin-top: 20px;
-        
+        font-size: 22px;
     }
+
+    
    
 
     .hostal-foto{
@@ -514,7 +534,7 @@ li a {
     }
 
     h3{
-        font-size: 25px;
+        
         margin-bottom: 0;
         margin-top: 45px;
     }
@@ -535,7 +555,7 @@ li a {
         padding: 5px;
         background-color: #ffc5c5;
         border: 1px solid white;
-        color:#cff5be ;
+        color:#6cbd47 ;
         border-radius: 5px;
         font-size: 16px;
       }
@@ -602,14 +622,11 @@ li a {
             text-transform: uppercase;
             margin-top: 50px;
             font-weight: 600;
-            font-size: 20px;
-            width: 52%;
+            width: 59%;
             margin-left: 22px;
         }
     
-    h1{
-        font-size: 49px;
-    }
+    
 
 
     .containerlugar{

@@ -390,6 +390,10 @@ li a {
         display: flex;
         margin-bottom: 3px;
         }
+
+        h1{
+            font-size: 20px;
+        }
     
     .containerbienvenido{
         display: flex;

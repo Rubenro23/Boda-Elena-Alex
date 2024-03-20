@@ -300,11 +300,11 @@ p{
 }
 
 .link-hostal{
-    color: black;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
+    color: #ffc5c5;
+}
+.link-hostal:hover{
+    color: #FC819E;
+    text-decoration: underline;
 }
 
 .hostal-foto{

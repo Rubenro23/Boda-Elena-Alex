@@ -164,7 +164,7 @@ h1{
 hr{
     width: 100%;
     margin-left: initial;
-    border: 2px solid #ffc5c5 ;
+    border: 1px solid #ffc5c5 ;
     
     
 }
@@ -572,7 +572,7 @@ li a {
         padding: 5px;
         background-color: #ffc5c5;
         border: 1px solid white;
-        color:#6cbd47 ;
+        color:#cff5be ;
         border-radius: 5px;
         font-size: 16px;
       }

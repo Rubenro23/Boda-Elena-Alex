@@ -25,6 +25,8 @@ header{
     text-align: center;
     height: 50px;
     align-items: center;
+   
+
 }
 
 
@@ -573,6 +575,7 @@ li a {
 
     .recuadro-alojamiento{
         width: 80%;
+        margin-bottom: 100px;
     }
     
     #calendario {

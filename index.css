@@ -391,27 +391,14 @@ li a {
     border-radius: 5px;
     
   }
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 10px;
-}
-.gallery .image-container {
-    background-color: #fff;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s;
-}
-.gallery .image-container:hover {
-    transform: scale(1.05);
-}
-.gallery img {
-    width: 100%;
-    height: auto;
-    display: block;
+  
+.fondo{
+    background-image: url(Imagen10.jpg);
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed; 
+
 }
 
 

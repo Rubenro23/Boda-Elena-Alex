@@ -410,22 +410,7 @@ li a {
 
     }
 
-    .img-fondo{
-        background-image: url(icon-map.jpg);
-        background-repeat: no-repeat;
-                background-position: center;
-                width: 100%;
-                height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                
-                text-align: center;
-                padding: 20px;
-                box-sizing: border-box;
-    }
-
+    
 
 /*
 .imagen{

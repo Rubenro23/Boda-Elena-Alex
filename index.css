@@ -432,63 +432,68 @@ li a {
 
 
 
-@media (max-width: 430px) {
-    header {
+@media (max-width:430px){
+    header{
         height: 100px;
         justify-content: space-between;
-    }
-
-    body {
-        font-size: 18px;
-    }
-
-    nav a {
+        
+        }
+        body{
+            font-size: 18px;
+        }
+    nav a{
         font-size: 13px;
         display: flex;
         margin-bottom: 3px;
-    }
+        }
 
-    h1 {
-        font-size: 22px;
-    }
-
-    .containerbienvenido {
+        h1{
+            font-size: 22px;
+        }
+    
+    .containerbienvenido{
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .containerlugar {
+    .containerlugar{
         display: flex;
         flex-direction: column;
     }
 
-    .imagen, .imagen2 {
-        width: 100%;
+    .imagen, .imagen2{
+        width: 430px;
         border-radius: 0;
     }
 
-    .texto {
-        width: 80%;
-        margin-top: 0px;
-        margin-left: 50px;
+   .texto{
+    width:80%;
+    margin-top: 0px;
+    margin-left: 50px;
     }
 
-    .text-title {
+  
+
+    .text-title{
         text-transform: uppercase;
         margin-top: 50px;
         font-size: 30px;
         width: 70%;
+        
     }
 
-    .text-confirm {
-        width: 85%;
+    .text-confirm{
+        width:85%;
         margin-top: 25px;
         margin-bottom: 50px;
         font-weight: 400;
         margin-left: 22px;
     }
 
-    .form {
+
+
+   
+    .form{
         width: 90%;
         height: 500px;
         border-style: solid;
@@ -498,93 +503,107 @@ li a {
         align-items: center;
         flex-direction: column;
         margin-bottom: 100px;
+        
     }
 
-    #name, #mensaje, #food {
+    #name,#mensaje,#food{
         width: 90%;
         height: 100px;
     }
 
-    .piePaginaConfirm {
+    .piePaginaConfirm{
         height: auto;
     }
 
-    .confirm {
-        font-size: 20px;
-        font-weight: 600;
+    .confirm{
+    font-size: 20px;
+    font-weight: 600;
     }
 
-    .button {
+    .button{
         margin-bottom: 40px;
         margin-top: 30px;
         font-size: 18px;
     }
 
-    .imagen2 {
-        width: 100%;
+   
+    .imagen2{
+        width: 430px;
         margin: auto;
+        
     }
 
-    .place {
+    .place{
         width: 90%;
     }
 
-    .contact {
+    .contact{
         width: 81%;
     }
 
-    .text-fotos {
+    .text-fotos{
         display: flex;
         justify-content: center;
         text-transform: uppercase;
         margin-top: 30px;
+        
     }
 
-    .fotos {
-        width: 92%;
-        margin-left: auto;
+    .fotos{
+       width: 92%;
+       margin-left: auto;
     }
+    
 
-    .link-foto {
+    .link-foto{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
+        align-items: center; 
     }
 
-    .link-camara {
+    .link-camara{
+        
         text-transform: uppercase;
         margin-bottom: 10px;
     }
 
-    .icon-camara {
+    .icon-camara{
+        
         margin-top: 20px;
+        
     }
 
-    .qr {
+    .qr{
         width: 50%;
     }
 
-    .text-alojamiento {
+    .text-alojamiento{
         width: 70%;
         margin: auto;
         margin-top: 20px;
+        
     }
 
-    .hostal-foto {
+    
+   
+
+    .hostal-foto{
         width: 50%;
         margin-top: 50px;
     }
 
-    h3 {
+    h3{
+        
         margin-bottom: 0;
+        
     }
 
-    .recuadro-alojamiento {
+    .recuadro-alojamiento{
         width: 80%;
         margin-bottom: 100px;
     }
-
+    
     #calendario {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -594,17 +613,18 @@ li a {
         padding: 10px;
         margin-left: initial;
         border-radius: 5px;
-    }
-
-    #calendario p {
+      }
+    
+      #calendario p {
         margin: 0;
         padding: 5px;
         background-color: #ffc5c5;
         border: 1px solid white;
-        color: #cff5be;
+        color:#cff5be ;
         border-radius: 5px;
         font-size: 16px;
-    }
+      }
+    
 }
 
 

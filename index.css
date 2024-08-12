@@ -632,6 +632,10 @@ li a {
         border-radius: 5px;
         font-size: 16px;
       }
+
+      .telefono{
+        color: #ffc5c5;
+      }
     
 }
 
